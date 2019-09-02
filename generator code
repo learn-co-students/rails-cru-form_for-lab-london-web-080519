@@ -1,0 +1,3 @@
+rails g resource genre name:string -—no-test-framework
+rails g resource song name:string artist_id:integer genre_id:integer -—no-test-framework
+rails g resource artist name:string bio:string -—no-test-framework
