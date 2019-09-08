@@ -1,0 +1,10 @@
+<h2>All Artists</h2>
+
+<ul>
+<%@artists.each do |artist| %>
+    <li><%= link_to artist.name, artist %></li>
+<% end %>
+
+</ul>
+
+<%= link_to "create", new_artist_path %>
